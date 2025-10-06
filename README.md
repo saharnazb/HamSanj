@@ -368,16 +368,27 @@ Bob Wilson,bob@university.edu,12347,Section 11,3,2
 - 360 MB/day data transfer
 
 **Typical Usage (per instructor per semester):**
-- 30 students submitting 30 evaluations each = ~900 writes
-- Viewing reports = ~1,000 reads per week
-- CSV imports = minimal writes
-- **Conclusion:** Most instructors will stay well within free tier limits
+Per evaluation cycle:
+- 100 students submitting 99 evaluations each = ~9900 writes
+- 100 students submitting 5 group member evaluations each = ~500 writes
+- Total: ~10,400 writes per full evaluation cycle
+
+Over a semester (15 weeks): 
+- Presentation evaluations (assuming phased, not all at once): ~10,000 writes
+- Group evaluations (2-3 cycles): ~1,500 writes
+- Instructor viewing reports weekly: ~15,000 reads
+- Students logging in to evaluate: ~25,000 reads
+- Total per semester: ~11,500 writes, ~40,000 reads
+
+  **Conclusion:** Most instructors will stay well within free tier limits
+                  If all 100 students evaluate on the same day, you'd use ~10,400 writes (still under the 20,000 daily limit)
 
 **If usage grows beyond free tier:**
+- Happens when: 3-4 instructors with large classes using the same Firebase project simultaneously
 - Upgrade to Blaze Plan (pay-as-you-go)
 - Pricing: $0.06 per 100K reads, $0.18 per 100K writes
-- Estimated cost: $25-50/month for 50-100 active instructors
-- No surprise charges - you can set budget alerts
+- Estimated cost for heavy usage: $10-25/month for 200-400 students across multiple instructors
+- No surprise charges - you can set budget alerts in Firebase Console
 
 ## Security & Privacy
 
