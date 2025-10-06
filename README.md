@@ -1,10 +1,19 @@
-# EvalFlow - Peer Evaluation System
+# HamSanj - Peer Evaluation System
 
 A web-based application for collecting student peer evaluations on presentations and group work. Built with React and Firebase.
 
+**About the Name**
+Hamsanj (هم‌سنج) is a Persian compound word combining:
+- Ham (هم) = "together" or "peer/co-"
+- Sanj (سنج) = "to measure" (from the verb sanjidan سنجیدن)
+
+Literally translated: "measuring together" or "peer assessment"
+While not a common word in everyday Persian, Hamsanj captures the essence of collaborative evaluation—peers measuring and assessing each other's work together. The name reflects both the tool's purpose and the collaborative spirit of academic peer review.
+
+
 ## About This Template
 
-This is a template repository for EvalFlow. To use it:
+This is a template repository for HamSanj. To use it:
 
 1. **Do NOT use the Firebase configuration in this template** - it contains placeholder values
 2. Create your own Firebase project (free) following the setup instructions below
@@ -54,7 +63,7 @@ This is a template repository for EvalFlow. To use it:
 
 1. Go to [Firebase Console](https://console.firebase.google.com/)
 2. Click "Add project"
-3. Enter project name (e.g., "evalflow-yourname")
+3. Enter project name (e.g., "HamSanj-yourname")
 4. Disable Google Analytics (optional)
 5. Click "Create project"
 
@@ -126,7 +135,7 @@ service cloud.firestore {
 1. In Firebase Console, go to **Project settings** (gear icon)
 2. Scroll down to "Your apps"
 3. Click the **Web** icon (`</>`)
-4. Register your app with a nickname (e.g., "EvalFlow")
+4. Register your app with a nickname (e.g., "HamSanj")
 5. Copy the `firebaseConfig` object - you'll need these values:
    - apiKey
    - authDomain
@@ -428,7 +437,7 @@ For issues or questions:
 
 ## Live Demo
 
-See EvalFlow in action at: https://saharnaz.org/resources/apps-forms/
+See HamSanj in action at: https://saharnaz.org/resources/apps-forms/
 
 **Note:** This is the developer's production instance. Create your own Firebase project for actual use with your students.
 
