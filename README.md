@@ -417,13 +417,16 @@ For issues or questions:
 
 ## Live Demo
 
-See EvalFlow in action at: https://saharnaz.org/assets/apps/evalflow/
+See EvalFlow in action at: https://saharnaz.org/resources/apps-forms/
 
 **Note:** This is the developer's production instance. Create your own Firebase project for actual use with your students.
 
 ## Screenshots
 
-(Add screenshots here if desired - instructor dashboard, student interface, reports page)
+<img width="573" height="542" alt="image" src="https://github.com/user-attachments/assets/c006175d-0c30-49df-8940-3b947ffa2c33" />
+<img width="508" height="520" alt="image" src="https://github.com/user-attachments/assets/7ae0502f-f184-43fe-bc65-5418647c578c" />
+<img width="1278" height="544" alt="image" src="https://github.com/user-attachments/assets/3c75c549-cc6a-451a-9e56-416828b389e3" />
+
 
 ## Acknowledgments
 
