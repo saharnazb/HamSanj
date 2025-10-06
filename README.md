@@ -423,8 +423,8 @@ See EvalFlow in action at: https://saharnaz.org/resources/apps-forms/
 
 ## Screenshots
 
-<img width="573" height="542" alt="image" src="https://github.com/user-attachments/assets/c006175d-0c30-49df-8940-3b947ffa2c33" />
-<img width="508" height="520" alt="image" src="https://github.com/user-attachments/assets/7ae0502f-f184-43fe-bc65-5418647c578c" />
+<img width="460" height="412" alt="image" src="https://github.com/user-attachments/assets/8bab1357-4312-4855-a94b-fa145cdca5a8" />
+<img width="454" height="473" alt="image" src="https://github.com/user-attachments/assets/79aae189-7a4b-420b-946e-f89e61f314dd" />
 <img width="1278" height="544" alt="image" src="https://github.com/user-attachments/assets/3c75c549-cc6a-451a-9e56-416828b389e3" />
 
 
