@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EvalFlow - Peer Evaluation System</title>
+  <title>HamSanj - Peer Evaluation System</title>
   
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
@@ -11,11 +11,11 @@
   
   <style>
     @keyframes spin { to { transform: rotate(360deg); } }
-    #evalflow-app * { box-sizing: border-box; }
+    #HamSanj-app * { box-sizing: border-box; }
   </style>
 </head>
 <body>
-  <div id="evalflow-app">
+  <div id="HamSanj-app">
     <div id="root"></div>
   </div>
   
@@ -94,7 +94,7 @@
         e('rect', { x: "3", y: "3", width: "18", height: "18", rx: "2", ry: "2" })
       );
 
-      function EvalFlow() {
+      function HamSanj() {
         const [currentUser, setCurrentUser] = useState(null);
         const [userRole, setUserRole] = useState(null);
         const [loading, setLoading] = useState(true);
@@ -440,7 +440,7 @@
           const url = window.URL.createObjectURL(blob);
           const a = document.createElement('a');
           a.href = url;
-          a.download = `evalflow_${sections.find(s => s.id === selectedSection)?.name.replace(/\s/g, '_')}_${new Date().toISOString().split('T')[0]}.csv`;
+          a.download = `HamSanj_${sections.find(s => s.id === selectedSection)?.name.replace(/\s/g, '_')}_${new Date().toISOString().split('T')[0]}.csv`;
           a.click();
           setSuccess('Exported');
         };
@@ -528,7 +528,7 @@ Jane Smith,jane@university.edu,12346,Section 11,2,1`;
           const url = window.URL.createObjectURL(blob);
           const a = document.createElement('a');
           a.href = url;
-          a.download = 'evalflow_template.csv';
+          a.download = 'HamSanj_template.csv';
           a.click();
         };
 
@@ -665,7 +665,7 @@ Jane Smith,jane@university.edu,12346,Section 11,2,1`;
       }
 
       const root = ReactDOM.createRoot(document.getElementById('root'));
-      root.render(e(EvalFlow));
+      root.render(e(HamSanj));
     }
 
     if (window.firebaseReady) {
